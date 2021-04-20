@@ -54,22 +54,38 @@
         padding: 35px;
         margin: auto;
         height: auto;
+        
         //position: fixed;
         @include desktop {
             width: 40%;
             padding: 50px;
             //position: fixed;
         }
+
+       /* & h1 {
+            animation: pulse 1s infinite alternate
+        }*/
         
 
     }
+
+  /*  @keyframes pulse {
+        0% {
+          background-color: #001F3F;
+        }
+        100% {
+          background-color: #FF4136;
+        }
+      }
+      */
 }
 
 img.top{
     animation-name: opacityFunction;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 800ms;
+    animation-duration: 1500ms;
+    animation-delay: 500ms;
     animation-direction: alternate;
 }
 

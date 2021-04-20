@@ -1,17 +1,24 @@
 @import "../../styles.scss";
 
 .section__bubbleAnimation {
-    height: 200px;
+    height: 150px;
+    @include desktop {
+        height: 200px;
+    }
 }
 .bubble {
     position: absolute;
-    width: 17px;
-    height: 17px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: $theme-secundary;
     opacity: 0.9;
     animation: bubble1-h-movement 5s ease-in infinite, bubble1-v-movement 1s ease-in-out infinite alternate, bubble-scale-movement 5s ease-in-out infinite alternate;
     
+    @include desktop {
+        height: 17px;
+        width: 17px;
+    }
    
    
 }
