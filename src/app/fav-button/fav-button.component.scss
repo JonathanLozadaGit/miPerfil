@@ -1,0 +1,15 @@
+.items-menu {
+    color: primary,
+}
+
+button.md-fab-bottom-right {
+    top: auto;
+    right: auto;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+::ng-deep .md-menu {
+    background-color: primary
+}

@@ -1,0 +1,61 @@
+@import "../../styles.scss";
+
+.section__bubbleAnimation {
+    height: 200px;
+}
+.bubble {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: $theme-secundary;
+    opacity: 0.9;
+    animation: bubble1-h-movement 5s ease-in infinite, bubble1-v-movement 1s ease-in-out infinite alternate, bubble-scale-movement 5s ease-in-out infinite alternate;
+    
+   
+   
+}
+
+@keyframes bubble1-h-movement {
+    0% { 
+          margin-left: 95%;
+      }
+    100% { 
+           margin-left: -10%; 
+      }
+  } 
+
+
+  @keyframes bubble1-v-movement {
+    0% { 
+          margin-top: 115px; 
+      }
+    100% { 
+          margin-top:160px; 
+      }
+  }
+    
+
+    @keyframes bubble-scale-movement {
+    0% { 
+          transform: scale(0.9);
+      }
+    50%{
+          transform: scale(2);
+    }
+    100% { 
+          transform: scale(0.9);
+      }
+  }
+
+    @keyframes light-movement {
+    0% { 
+          transform: rotate(-40deg);
+      }
+      50% {
+          transform: rotate(-70deg);
+      }
+    100% { 
+          transform: rotate(-40deg);
+      }
+  }

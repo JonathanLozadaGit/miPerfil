@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+.section__knowledge {
+    height: 300px;
+    background-color: $theme-secundary;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include desktop {
+        padding-top: 170px;
+    }
+}
+
+h2 {
+    color: $theme-primary;
+}
+
