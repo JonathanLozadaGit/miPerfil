@@ -5,15 +5,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding-top: 110px;
 
     @include desktop {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-top: 80px;
-        padding-bottom: 150px;
+        padding-top: 250px;
+        padding-bottom: 220px;
         //width: 80%;
     }
 

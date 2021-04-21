@@ -1,29 +1,29 @@
 <div class="button" role="menu">
-    <button mat-fab class = "md-fab md-fab-bottom-right"  color="primary" [matMenuTriggerFor]="menu" aria-label="Example icon button with a delete icon">
+    <button mat-fab class = "md-fab md-fab-bottom-left"  color="primary" [matMenuTriggerFor]="menu" aria-label="Example icon button with a delete icon">
       <mat-icon>more_vert</mat-icon>
     </button>
 
 
     <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
-      <button mat-menu-item>
+      <a href ="#section1" mat-menu-item >
         <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Presentación</span>
-      </button>
-      <button mat-menu-item>
+        <span>Inicio</span>
+      </a>
+      <a href ="#section2" mat-menu-item>
         <mat-icon class = "items-menu">chevron_right</mat-icon>
         <span>Conocimientos</span>
-      </button>
-      <button mat-menu-item>
+      </a>
+      <a href ="#section3" mat-menu-item>
         <mat-icon class = "items-menu">chevron_right</mat-icon>
         <span>Experiencia</span>
-      </button>
-      <button mat-menu-item>
+      </a>
+      <a href ="#section4" mat-menu-item>
         <mat-icon class = "items-menu">chevron_right</mat-icon>
         <span>Aficiones</span>
-      </button>
-      <button mat-menu-item>
+      </a>
+      <a href ="#section5" mat-menu-item>
         <mat-icon class = "items-menu">chevron_right</mat-icon>
         <span>Contacto</span>
-      </button>
+      </a>
     </mat-menu>
   </div>

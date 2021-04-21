@@ -1,9 +1,9 @@
 @import "../../styles.scss";
 
 .section__bubbleAnimation {
-    height: 150px;
+    height: 80px;
     @include desktop {
-        height: 200px;
+        height: 110px;
     }
 }
 .bubble {
@@ -12,12 +12,11 @@
     height: 10px;
     border-radius: 50%;
     background-color: $theme-secundary;
-    opacity: 0.9;
     animation: bubble1-h-movement 5s ease-in infinite, bubble1-v-movement 1s ease-in-out infinite alternate, bubble-scale-movement 5s ease-in-out infinite alternate;
     
     @include desktop {
-        height: 17px;
-        width: 17px;
+        height: 20px;
+        width: 20px;
     }
    
    
@@ -35,10 +34,10 @@
 
   @keyframes bubble1-v-movement {
     0% { 
-          margin-top: 115px; 
+          margin-top: 20px; 
       }
     100% { 
-          margin-top:160px; 
+          margin-top:130px; 
       }
   }
     
