@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Item } from '../_interface/perfil.interface';
 
 @Component({
   selector: 'app-card-item',
@@ -7,8 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardItemComponent implements OnInit {
 
-  @Input('avatar') avatar: string = "";
-  @Input('text') text: string = "";
+  @Input('item') item: Item = {};
+  
   
   constructor() { }
 

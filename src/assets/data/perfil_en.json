@@ -1,0 +1,88 @@
+{
+    "name" : "Jonathan",
+    "shortPresentation" : "I am a dreamy, resilient person, willing to help and with a constant desire to learn and improve in all aspects, with an interest in web development and the IoT.",
+    "imageProfile1": "assets/images/fotoPerfil.PNG",
+    "imageProfile2": "assets/images/fotoPerfil4.PNG",
+    "greeting":"Hi",
+    "yo_soy" : "I am",
+    "knowledges": {
+        "title": "KNOWLEDGES",
+        "fields":[
+            {
+                "name": "Technologies",
+                "items": [
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    }
+                ]
+            },
+            {
+                "name": "Tools",
+                "items": [
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool1"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "Prueba"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool3"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "Tool555"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "ThisIsAItem"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool7"
+                    }
+                ]
+            }
+        ]
+    }
+    
+}

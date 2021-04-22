@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Knowledges } from '../_interface/perfil.interface';
 
 @Component({
   selector: 'app-knowledge',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KnowledgeComponent implements OnInit {
 
+  @Input('knowledges') knowledges: Knowledges = {}
   constructor() { }
 
   ngOnInit(): void {

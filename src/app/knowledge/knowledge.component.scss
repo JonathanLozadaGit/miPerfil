@@ -15,18 +15,26 @@
 
 .section__container {
         padding-top: 50px;
-        width: 90%;
+        width: 92%;
         position: relative; 
         margin: auto;       
         @include desktop {
             padding-top: 70px;
-            width: 1200px;
+            width: 1000px;
             margin: auto;
             
         }
 
         & mat-tab-group {
             position: sticky;
+
+            & .card__list {
+                padding: 10px;
+                display: contents;
+                @include desktop {
+                    padding: 20px;
+                }
+            }
         }
 }
 

@@ -47,7 +47,7 @@ h1, h2 {
     font-size: 30px;
     
     @include tablet {
-        font-size: 60px;
+        font-size: 55px;
         line-height: 64px;
         height: auto;
     }  
@@ -65,10 +65,11 @@ h3 {
 p {
     color: $font-secundary;
     font-size: 25px;
+    line-height: 25px;
     
     @include tablet {
-        font-size: 40px;
-        line-height: 64px;
+        font-size: 30px;
+        line-height: 45px;
         height: auto;
     }
 }

@@ -1,11 +1,11 @@
 <!-- Toolbar -->
-<app-header></app-header>
+<app-header [actual] = "idioma" (selected) = "updateLanguage($event)"></app-header>
 
 <!-- Body -->
 <div class="container" role="main">
-  <app-presentation class ="section" id="section1"></app-presentation>
+  <app-presentation class ="section" id="section1" [perfil] = "perfil"></app-presentation>
   <app-bubble></app-bubble>
-  <app-knowledge  class ="section" id = "section2"></app-knowledge>
+  <app-knowledge  class ="section" id = "section2" [knowledges] = "knowledges"></app-knowledge>
   <app-fav-button></app-fav-button>
 </div>
 

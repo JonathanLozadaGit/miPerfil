@@ -1,18 +1,14 @@
 <section class="section__knowledge">
-    <h2>·· CONOCIMIENTOS ··</h2>
+    <h2>·· {{knowledges.title}} ··</h2>
     <div class="section__container">
         <mat-tab-group mat-align-tabs="center" class="section__container__tabs">
-            <mat-tab>
+            <mat-tab *ngFor="let field of knowledges.fields">
                 <ng-template mat-tab-label>
-                  <h3>Tecnologías</h3>
+                  <h3>{{field.name}}</h3>
                 </ng-template>
-                <app-list-card-item></app-list-card-item>            
-            </mat-tab>
-            <mat-tab>
-                <ng-template mat-tab-label>
-                  <h3>Herramientas</h3>
-                </ng-template>
-                <app-list-card-item></app-list-card-item>
+                <div class = "card__list">
+                    <app-card-item *ngFor="let item of field.items" [item] = "item" ></app-card-item>
+                </div>              
             </mat-tab>
         </mat-tab-group>
     </div>

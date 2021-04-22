@@ -12,6 +12,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { MatMenuModule } from "@angular/material/menu";
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
 
 //
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,7 +24,7 @@ import { HeaderComponent } from './header/header.component';
 import { BubbleComponent } from './bubble/bubble.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { CardItemComponent } from './card-item/card-item.component';
-import { ListCardItemComponent } from './list-card-item/list-card-item.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +35,6 @@ import { ListCardItemComponent } from './list-card-item/list-card-item.component
     BubbleComponent,
     KnowledgeComponent,
     CardItemComponent,
-    ListCardItemComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +46,8 @@ import { ListCardItemComponent } from './list-card-item/list-card-item.component
     HttpClientModule,
     MatMenuModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

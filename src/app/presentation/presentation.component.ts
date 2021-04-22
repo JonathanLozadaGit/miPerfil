@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {Perfil} from 'src/app/_interface/perfil.interface';
 
 @Component({
   selector: 'app-presentation',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./presentation.component.scss']
 })
 export class PresentationComponent implements OnInit {
+  @Input('perfil') perfil: Perfil = {}
 
   constructor() { }
 

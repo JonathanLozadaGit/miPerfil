@@ -1,0 +1,88 @@
+{
+    "name" : "Jonathan",
+    "shortPresentation" : "Soy una persona soñadora, resiliente, dispuesta a ayudar y con ganas constantes de aprender y mejorar en todos los aspectos, con interés en el desarrollo web y el IoT.",
+    "imageProfile1": "assets/images/fotoPerfil.PNG",
+    "imageProfile2": "assets/images/fotoPerfil4.PNG",
+    "greeting":"Buenas",
+    "yo_soy" : "soy",
+    "knowledges": {
+        "title": "CONOCIMIENTOS",
+        "fields":[
+            {
+                "name": "Tecnologías",
+                "items": [
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "SCSS"
+                    }
+                ]
+            },
+            {
+                "name": "Herramientas",
+                "items": [
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool1"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "Prueba"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool3"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Javascript"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil4.PNG",
+                        "title": "Tool555"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "ThisIsAItem"
+                    },
+                    {
+                        "image": "assets/images/fotoPerfil.PNG",
+                        "title": "Tool7"
+                    }
+                ]
+            }
+        ]
+    }
+    
+}
