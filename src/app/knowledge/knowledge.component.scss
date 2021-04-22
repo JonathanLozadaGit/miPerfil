@@ -3,17 +3,33 @@
 .section__knowledge {
     height: 1200px;
     background-color: $theme-secundary;
-    padding-top: 100px;
+    padding-top: 90px;
     justify-content: center;
     align-items: center;
     text-align: center;
 
     @include desktop {
-        padding-top: 170px;
+        padding-top: 150px;
     }
+}
+
+.section__container {
+        padding-top: 50px;
+        width: 90%;
+        position: relative; 
+        margin: auto;       
+        @include desktop {
+            padding-top: 70px;
+            width: 1200px;
+            margin: auto;
+            
+        }
+
+        & mat-tab-group {
+            position: sticky;
+        }
 }
 
 h2 {
     color: $theme-primary;
 }
-

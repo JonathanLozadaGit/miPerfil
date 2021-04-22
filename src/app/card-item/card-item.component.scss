@@ -1,0 +1,36 @@
+@import "../../styles.scss";
+
+.card__list__item {
+    padding: 8px;
+    display: inline-block;
+
+    & mat-card {
+        width: fit-content;
+        display: inline-block;
+        padding: 8px;
+
+        @include tablet {
+            padding: 15px;
+        }
+    }
+    & mat-card-header {
+        &  ::ng-deep .mat-card-header-text {
+            margin: auto;
+            padding-left: 5px;
+
+            & .mat-card-title {
+                margin-bottom: 0px;
+            }
+        }
+
+        & .mat-card-avatar {
+            background-size: cover;
+        }
+    } 
+}
+
+.card__list__item:hover  {
+    & mat-card{
+        background: $theme;
+    }
+}

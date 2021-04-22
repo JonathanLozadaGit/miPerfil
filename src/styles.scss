@@ -33,12 +33,12 @@ $desktop: 1280px;
 html, body { height: 100%; }
 body { margin: 0;  }
 
-h1, p { 
+h1, h4, p { 
     font-family: Courier, "Lucida Console", monospace;
     font-weight: bold;
 } 
     
-h2 {
+h2, h3 {
   font-family: Fantasy, "Copperplate", monospace;
   font-weight: bold;
 }
@@ -52,6 +52,16 @@ h1, h2 {
         height: auto;
     }  
 }
+
+h3 {
+  color : $font-primary; 
+    font-size: 15px;
+    
+    @include tablet {
+        font-size: 40px;
+        height: auto;
+    }  
+}
 p {
     color: $font-secundary;
     font-size: 25px;
@@ -60,6 +70,19 @@ p {
         font-size: 40px;
         line-height: 64px;
         height: auto;
+    }
+}
+
+h4 {
+  color: $font-secundary;
+    font-size: 15px;
+    margin-block: auto;
+    
+    @include tablet {
+        font-size: 31px;
+        margin-block: auto;
+        //line-height: 64px;
+        //height: auto;
     }
 }
 
