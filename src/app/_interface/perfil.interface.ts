@@ -1,10 +1,13 @@
 export interface Perfil {
+    idioma?: string;
+    code?: string;
     name?: string;
     shortPresentation?: string;
     imageProfile1?: string;
     imageProfile2?: string;
     greeting?: string;
-    yo_soy? : string
+    yo_soy? : string;
+    sections? : string [];
     knowledges?: Knowledges;
 }
 

@@ -6,14 +6,11 @@
         <mat-icon>emoji_flags</mat-icon>
       </button>
       <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
-        <button  mat-menu-item (click)="selectLanguage('es')">
+        <button  mat-menu-item *ngFor="let option of options" (click)="selectLanguage(option.code)">
           <mat-icon class = "items-menu">emoji_flags</mat-icon>
-          <span>Español</span>
+          <span>{{option.name}}</span>
         </button>
-        <button mat-menu-item (click)="selectLanguage('en')">
-          <mat-icon class = "items-menu">emoji_flags</mat-icon>
-          <span>Inglés</span>
-        </button>
+        
       </mat-menu>
       <a href = "https://www.linkedin.com/in/jonathan-lozada-cuenca" mat-icon-button class="toolbar-icon" aria-label="Linkdin icon">
         <mat-icon svgIcon = "linkedin-icon"></mat-icon>

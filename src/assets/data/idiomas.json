@@ -1,0 +1,31 @@
+[
+    {
+        "idioma": "es",
+        "opciones": [
+            {
+                "code": "es",
+                "name": "Español"
+
+            },
+            {
+                "code": "en",
+                "name": "Inglés"
+
+            }
+        ]
+    },{
+        "idioma": "en",
+        "opciones": [
+            {
+                "code": "es",
+                "name": "Spanish"
+
+            },
+            {
+                "code": "en",
+                "name": "English"
+
+            }
+        ]
+    }
+]

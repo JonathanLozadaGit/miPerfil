@@ -1,10 +1,13 @@
 {
+    "idioma":"Inglés",
+    "code":"en",
     "name" : "Jonathan",
-    "shortPresentation" : "I am a dreamy, resilient person, willing to help and with a constant desire to learn and improve in all aspects, with an interest in web development and the IoT.",
+    "shortPresentation" : "I am a dreamer, with resilience, who is always willing to help and with a constant desire to learn and improve in all aspects, with an interest in web development and the IoT.",
     "imageProfile1": "assets/images/fotoPerfil.PNG",
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
     "greeting":"Hi",
     "yo_soy" : "I am",
+    "sections": ["Init", "Knowledgee", "About me", "Projects", "Contact"],
     "knowledges": {
         "title": "KNOWLEDGES",
         "fields":[

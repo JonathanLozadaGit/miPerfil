@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-fav-button',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-button.component.scss']
 })
 export class FavButtonComponent implements OnInit {
+
+  @Input('sections') sections : string[] = [];
 
   constructor() { }
 

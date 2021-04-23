@@ -17,7 +17,8 @@ export class AppComponent {
 
   perfil: Perfil = {};
   knowledges: Knowledges = {};
-  idioma: string = "es";
+  idioma: string = "";
+  sections: string [] = [];
 
   constructor(
     private matIconRegistry: MatIconRegistry,
@@ -44,6 +45,8 @@ export class AppComponent {
   ngOnInit(): void {
     this.perfil= PERFIL_ES as any;
     this.knowledges = this.perfil.knowledges as any;
+    this.idioma = this.perfil.code as any;
+    this.sections = this.perfil.sections as any;
     //console.log(this.perfil.knowledges);
   }
 
@@ -56,5 +59,6 @@ export class AppComponent {
     }
     this.idioma = event;
     this.knowledges = this.perfil.knowledges as any;
+    this.sections = this.perfil.sections as any;
   }
 }

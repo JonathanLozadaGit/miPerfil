@@ -1,10 +1,13 @@
 {
+    "idioma":"Español",
+    "code":"es",
     "name" : "Jonathan",
-    "shortPresentation" : "Soy una persona soñadora, resiliente, dispuesta a ayudar y con ganas constantes de aprender y mejorar en todos los aspectos, con interés en el desarrollo web y el IoT.",
+    "shortPresentation" : "Soy una persona soñadora, resiliente, siempre dispuesta a ayudar y con ganas constantes de aprender y mejorar en todos los aspectos, con interés en el desarrollo web y el IoT.",
     "imageProfile1": "assets/images/fotoPerfil.PNG",
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
     "greeting":"Buenas",
     "yo_soy" : "soy",
+    "sections": ["Inicio", "Conocimientos", "Sobre mi", "Proyectos", "Contacto"],
     "knowledges": {
         "title": "CONOCIMIENTOS",
         "fields":[

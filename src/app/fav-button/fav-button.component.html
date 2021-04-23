@@ -5,25 +5,9 @@
 
 
     <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
-      <a href ="#section1" mat-menu-item >
+      <a *ngFor="let section of sections,  let i = index" href ="#section{{i}}" mat-menu-item >
         <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Inicio</span>
-      </a>
-      <a href ="#section2" mat-menu-item>
-        <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Conocimientos</span>
-      </a>
-      <a href ="#section3" mat-menu-item>
-        <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Experiencia</span>
-      </a>
-      <a href ="#section4" mat-menu-item>
-        <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Aficiones</span>
-      </a>
-      <a href ="#section5" mat-menu-item>
-        <mat-icon class = "items-menu">chevron_right</mat-icon>
-        <span>Contacto</span>
+        <span>{{section}}</span>
       </a>
     </mat-menu>
   </div>
