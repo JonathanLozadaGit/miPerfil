@@ -15,40 +15,56 @@
                 "name": "Technologies",
                 "items": [
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
+                        "image": "assets/images/javascript.jpg",
                         "title": "Javascript"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
+                        "image": "assets/images/html5.png",
                         "title": "HTML"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/css.png",
+                        "title": "CSS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/jquery.png",
+                        "title": "jQuery"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "HTML"
+                        "image": "assets/images/angular.png",
+                        "title": "Angular"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/react.png",
+                        "title": "React"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/git.png",
+                        "title": "Git"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "HTML"
+                        "image": "assets/images/nodejs.png",
+                        "title": "NodeJS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/java.png",
+                        "title": "Java"
+                    },
+                    {
+                        "image": "assets/images/python.png",
+                        "title": "Python"
+                    },
+                    {
+                        "image": "assets/images/xml.png",
+                        "title": "XML"
+                    },
+                    {
+                        "image": "assets/images/mbed.png",
+                        "title": "mbed"
+                    },
+                    {
+                        "image": "assets/images/arduino.jpg",
+                        "title": "Arduino"
                     }
                 ]
             },

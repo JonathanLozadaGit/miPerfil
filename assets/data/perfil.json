@@ -53,6 +53,18 @@
                     {
                         "image": "assets/images/python.png",
                         "title": "Python"
+                    },
+                    {
+                        "image": "assets/images/xml.png",
+                        "title": "XML"
+                    },
+                    {
+                        "image": "assets/images/mbed.png",
+                        "title": "mbed"
+                    },
+                    {
+                        "image": "assets/images/arduino.jpg",
+                        "title": "Arduino"
                     }
                 ]
             },
