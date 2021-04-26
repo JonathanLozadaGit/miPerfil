@@ -39,16 +39,20 @@
                         "title": "React"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/git.png",
+                        "title": "Git"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "HTML"
+                        "image": "assets/images/nodejs.png",
+                        "title": "NodeJS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/java.png",
+                        "title": "Java"
+                    },
+                    {
+                        "image": "assets/images/python.png",
+                        "title": "Python"
                     }
                 ]
             },
