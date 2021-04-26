@@ -16,7 +16,7 @@
                 "items": [
                     {
                         "image": "assets/images/javascript.jpg",
-                        "title": "Javascript"
+                        "title": "JavaScript"
                     },
                     {
                         "image": "assets/images/html5.png",
@@ -72,32 +72,40 @@
                 "name": "Herramientas",
                 "items": [
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool1"
+                        "image": "assets/images/vscode.png",
+                        "title": "Visual Studio Code"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "Prueba"
+                        "image": "assets/images/eclipse.png",
+                        "title": "Eclipse"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool3"
+                        "image": "assets/images/npm.png",
+                        "title": "npm"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/postman.png",
+                        "title": "Postman"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "Tool555"
+                        "image": "assets/images/github.png",
+                        "title": "GitHub"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "ThisIsAItem"
+                        "image": "assets/images/nodered.png",
+                        "title": "NodeRED"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool7"
+                        "image": "assets/images/androidstudio.png",
+                        "title": "Android Studio"
+                    },
+                    {
+                        "image": "assets/images/elastic.png",
+                        "title": "Elastic"
+                    },
+                    {
+                        "image": "assets/images/azure.png",
+                        "title": "Azure"
                     }
                 ]
             }
