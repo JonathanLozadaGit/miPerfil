@@ -15,7 +15,7 @@
                 "name": "Tecnologías",
                 "items": [
                     {
-                        "image": "assets/images/javascript.jpg",
+                        "image": "assets/images/javascript-logo.png",
                         "title": "Javascript"
                     },
                     {
@@ -27,8 +27,8 @@
                         "title": "CSS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/jquery.png",
+                        "title": "jQuery"
                     },
                     {
                         "image": "assets/images/fotoPerfil4.PNG",
