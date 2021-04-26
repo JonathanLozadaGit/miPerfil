@@ -15,16 +15,16 @@
                 "name": "Tecnologías",
                 "items": [
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
+                        "image": "assets/images/javascript.jpg",
                         "title": "Javascript"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
+                        "image": "assets/images/html5.png",
                         "title": "HTML"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/css.png",
+                        "title": "CSS"
                     },
                     {
                         "image": "assets/images/fotoPerfil.PNG",
