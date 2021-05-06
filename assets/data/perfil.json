@@ -7,7 +7,7 @@
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
     "greeting":"Buenas",
     "yo_soy" : "soy",
-    "sections": ["Inicio", "Conocimientos", "Sobre mi", "Proyectos", "Contacto"],
+    "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
     "knowledges": {
         "title": "CONOCIMIENTOS",
         "fields":[
