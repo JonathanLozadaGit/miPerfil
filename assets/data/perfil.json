@@ -8,6 +8,47 @@
     "greeting":"Buenas",
     "yo_soy" : "soy",
     "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
+    "aboutMe": {
+        "title": "SOBRE MI",
+        "icon": "assets/images/jonathan.png",
+        "text": "Hola Hola",
+        "sections":  [
+            {
+                "sectionTitle":"Formación académica",
+                "items": [
+                    {
+                        "title":"Grado en Ingeniería Electrónica de Comunicaciones",
+                        "image":"",
+                        "list": [
+                            "Universidad Politécnica de Madrid",
+                            "2014-2020",
+                            "Se desarolló competencias en el ámbito de la electrónica así como campos de las telecomunicaciones como la telemática.",
+                            "Electrónica digital, programación , sistemas de redes"
+                        ]
+                    },
+                    {
+                        "title":"Máster en Internet de las Cosas",
+                        "image":"",
+                        "list": [
+                            "Universidad Politécnica de Madrid",
+                            "2019-2020",
+                            "Se adquirió conocimientos básicos en el ámbito del IoT",
+                            "Internet of Things, Cloud Computing, Big Data"
+                        ]
+                    }
+                ]
+            }, {
+                "sectionTitle":"Experiencia laboral",
+                "items": [
+                ]
+            }, {
+                "sectionTitle":"Otros",
+                "items": [
+                ]
+            }
+        ]
+
+    },
     "knowledges": {
         "title": "CONOCIMIENTOS",
         "fields":[
