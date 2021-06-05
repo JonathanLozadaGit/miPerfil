@@ -1,10 +1,10 @@
-<section class="section__knowledge">
-    <h2>·· {{knowledges.title}} ··</h2>
+<section class="section__knowledge section__secundary">
+    <h2 class="h2__secundary">·· {{knowledges.title}} ··</h2>
     <div class="section__container">
-        <mat-tab-group mat-align-tabs="center" class="section__container__tabs">
+        <mat-tab-group dynamicHeight mat-align-tabs="center" class="section__container__tabs">
             <mat-tab *ngFor="let field of knowledges.fields">
                 <ng-template mat-tab-label>
-                  <h3>{{field.name}}</h3>
+                  <h3 class = "h3__secundary">{{field.name}}</h3>
                 </ng-template>
                 <div class = "card__list">
                     <app-card-item *ngFor="let item of field.items" [item] = "item" ></app-card-item>

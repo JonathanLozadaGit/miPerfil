@@ -16,7 +16,7 @@
     & mat-card-header {
         &  ::ng-deep .mat-card-header-text {
             margin: auto;
-            padding-left: 5px;
+            padding-left: 10px;
 
             & .mat-card-title {
                 margin-bottom: 0px;
@@ -31,6 +31,10 @@
 
 .card__list__item:hover  {
     & mat-card{
-        background: $theme;
+        background: $theme-accent;
+    }
+
+    & p {
+        color: $font-secundary;
     }
 }

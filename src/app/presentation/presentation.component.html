@@ -1,10 +1,12 @@
 <section class = "presentation" id = "presentation">
-    <div class = "presentation__img">
-        <img class = "bottom"src = "{{perfil.imageProfile1}}" />
-        <img class = "top"src = "{{perfil.imageProfile2}}" />
+    <div class="presentation__container">
+        <div class = "presentation__container__img">
+            <img src = "{{perfil.imageProfile1}}" />
+        </div>
+        <div class = "presentation__container__text">
+            <h1 class = "h1__presentation">{{perfil.greeting}}, {{perfil.yo_soy}} {{perfil.name}}!!</h1>
+            <p class="p__presentation">{{perfil.shortPresentation}}</p>
+        </div>
     </div>
-    <div class = "presentation__text">
-        <h1 class = "">{{perfil.greeting}}, {{perfil.yo_soy}} {{perfil.name}}!!</h1>
-        <p>{{perfil.shortPresentation}}</p>
-    </div>
+   
 </section>

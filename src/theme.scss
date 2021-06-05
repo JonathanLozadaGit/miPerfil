@@ -5,7 +5,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $mi-perfil-accent: mat-palette($mat-blue-grey);
-$mi-perfil-primary:  mat-palette($mat-cyan, 900, 700, 600);
+$mi-perfil-primary:  mat-palette($mat-blue-grey, 900, 700, 600);
 
 // The warn palette is optional (defaults to red).
 $mi-perfil-warn:    mat-palette($mat-red);

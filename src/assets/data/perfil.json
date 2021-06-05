@@ -7,7 +7,7 @@
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
     "greeting":"Buenas",
     "yo_soy" : "soy",
-    "sections": ["Inicio", "Conocimientos", "Sobre mi", "Proyectos", "Contacto"],
+    "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
     "knowledges": {
         "title": "CONOCIMIENTOS",
         "fields":[
@@ -15,40 +15,56 @@
                 "name": "Tecnologías",
                 "items": [
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/javascript.jpg",
+                        "title": "JavaScript"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
+                        "image": "assets/images/html5.png",
                         "title": "HTML"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/css.png",
+                        "title": "CSS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/jquery.png",
+                        "title": "jQuery"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "HTML"
+                        "image": "assets/images/angular.png",
+                        "title": "Angular"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/react.png",
+                        "title": "React"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/git.png",
+                        "title": "Git"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "HTML"
+                        "image": "assets/images/nodejs.png",
+                        "title": "NodeJS"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "SCSS"
+                        "image": "assets/images/java.png",
+                        "title": "Java"
+                    },
+                    {
+                        "image": "assets/images/python.png",
+                        "title": "Python"
+                    },
+                    {
+                        "image": "assets/images/xml.png",
+                        "title": "XML"
+                    },
+                    {
+                        "image": "assets/images/mbed.png",
+                        "title": "mbed"
+                    },
+                    {
+                        "image": "assets/images/arduino.jpg",
+                        "title": "Arduino"
                     }
                 ]
             },
@@ -56,32 +72,40 @@
                 "name": "Herramientas",
                 "items": [
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool1"
+                        "image": "assets/images/vscode.png",
+                        "title": "Visual Studio Code"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "Prueba"
+                        "image": "assets/images/eclipse.png",
+                        "title": "Eclipse"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool3"
+                        "image": "assets/images/npm.png",
+                        "title": "npm"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Javascript"
+                        "image": "assets/images/postman.png",
+                        "title": "Postman"
                     },
                     {
-                        "image": "assets/images/fotoPerfil4.PNG",
-                        "title": "Tool555"
+                        "image": "assets/images/github.png",
+                        "title": "GitHub"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "ThisIsAItem"
+                        "image": "assets/images/nodered.png",
+                        "title": "NodeRED"
                     },
                     {
-                        "image": "assets/images/fotoPerfil.PNG",
-                        "title": "Tool7"
+                        "image": "assets/images/androidstudio.png",
+                        "title": "Android Studio"
+                    },
+                    {
+                        "image": "assets/images/elastic.png",
+                        "title": "Elastic"
+                    },
+                    {
+                        "image": "assets/images/azure.png",
+                        "title": "Azure"
                     }
                 ]
             }

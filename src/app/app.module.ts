@@ -24,6 +24,10 @@ import { HeaderComponent } from './header/header.component';
 import { BubbleComponent } from './bubble/bubble.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { CardItemComponent } from './card-item/card-item.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { FooterComponent } from './footer/footer.component';
+import { ImageGlitchComponent } from './image-glitch/image-glitch.component';
+import { ImageItemComponent } from './image-item/image-item.component';
 
 
 @NgModule({
@@ -35,6 +39,10 @@ import { CardItemComponent } from './card-item/card-item.component';
     BubbleComponent,
     KnowledgeComponent,
     CardItemComponent,
+    AboutMeComponent,
+    FooterComponent,
+    ImageGlitchComponent,
+    ImageItemComponent,
   ],
   imports: [
     BrowserModule,

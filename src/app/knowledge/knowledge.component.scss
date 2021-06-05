@@ -1,8 +1,6 @@
 @import "../../styles.scss";
 
 .section__knowledge {
-    height: 1200px;
-    background-color: $theme-secundary;
     padding-top: 90px;
     justify-content: center;
     align-items: center;
@@ -10,6 +8,15 @@
 
     @include desktop {
         padding-top: 150px;
+        width: 1300px;
+        margin: auto;
+    }
+
+    &.section__secundary {
+        background-color: $theme-secundary;
+    }
+    &.section__primary {
+        background-color: $theme-primary;
     }
 }
 
@@ -17,7 +24,8 @@
         padding-top: 50px;
         width: 92%;
         position: relative; 
-        margin: auto;       
+        margin: auto; 
+
         @include desktop {
             padding-top: 70px;
             width: 1000px;
@@ -27,6 +35,12 @@
 
         & mat-tab-group {
             position: sticky;
+            padding-bottom: 50px;
+
+            @include desktop {
+                padding-bottom: 100px;
+                
+            }
 
             & .card__list {
                 padding: 10px;
@@ -35,9 +49,17 @@
                     padding: 20px;
                 }
             }
+
+            & ::ng-deep .mat-tab-body-wrapper {
+                margin-top: 10px;
+                @include tablet {
+                    padding: 20px;
+                }
+                @include desktop {
+                    padding: 30px;
+                }
+            }
         }
 }
 
-h2 {
-    color: $theme-primary;
-}
+

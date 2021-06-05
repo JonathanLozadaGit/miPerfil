@@ -1,3 +1,4 @@
+
 .items-menu {
     color: primary,
 }
@@ -12,4 +13,12 @@ button.md-fab-bottom-left {
 
 ::ng-deep .md-menu {
     background-color: primary
+}
+
+a:hover {
+    color:deeppink;
+    font-weight: bolder;
+    mat-icon{
+        color: deeppink;
+    }
 }

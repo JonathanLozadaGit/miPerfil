@@ -2,11 +2,11 @@
     <mat-toolbar class="mat-elevation-z6 toolbar__mat" color="primary">    
       <span>Mi Perfil</span>
       <span class="span-spacer"></span>
-      <button   mat-icon-button class="toolbar-icon" aria-label="Language" [matMenuTriggerFor]="menu" >
+      <button  mat-icon-button class="toolbar-icon" aria-label="Language" [matMenuTriggerFor]="menu" >
         <mat-icon>emoji_flags</mat-icon>
       </button>
       <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
-        <button  mat-menu-item *ngFor="let option of options" (click)="selectLanguage(option.code)">
+        <button mat-menu-item class = "button__option" *ngFor="let option of options" (click)="selectLanguage(option.code)">
           <mat-icon class = "items-menu">emoji_flags</mat-icon>
           <span>{{option.name}}</span>
         </button>

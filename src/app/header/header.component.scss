@@ -6,3 +6,11 @@
   position: fixed;
   z-index: 100;
 }
+
+.button__option:hover {
+  color:deeppink;
+  font-weight: bolder;
+  mat-icon{
+    color: deeppink;
+  }
+}
