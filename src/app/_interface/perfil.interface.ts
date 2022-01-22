@@ -8,6 +8,7 @@ export interface Perfil {
     greeting?: string;
     yo_soy? : string;
     sections? : string [];
+    aboutMe? : AboutMe;
     knowledges?: Knowledges;
 }
 
@@ -24,4 +25,25 @@ export interface Field {
 export interface Item {
     image?: string;
     title?: string
+}
+
+
+
+export interface AboutMe {
+    title?: string;
+    icon?: string;
+    text?: string;
+    sections?: Section[]
+}
+
+export interface Section {
+    sectionTitle?: string;
+    items?: Item2 []
+}
+
+export interface Item2 {
+    title?: string;
+    image?: string;
+    list?: string[];
+    highlights?: string[];
 }

@@ -1,0 +1,30 @@
+<section class="section__knowledge section__primary">
+    <h2 class="h2__primary">·· {{aboutMe.title}} ··</h2>
+    <div class="section__container">
+      <div class="section__container__intro">
+        <div class="section__container__intro__img">
+          <app-image-glitch  [icon]="icon"></app-image-glitch>
+        </div> 
+        <div class="section__container__intro__text">
+          <p class="p__normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum officia voluptates suscipit, laudantium aut ex aperiam quam magnam iusto quod! </p>
+          <p class="p__normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum officia voluptates suscipit, laudantium aut ex aperiam quam magnam iusto quod! </p>
+          <p class="p__normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum officia voluptates suscipit, laudantium aut ex aperiam quam magnam iusto quod! </p>
+        </div>    
+      </div>
+      <div class="section__container__tabs">
+        <mat-tab-group dynamicHeight mat-align-tabs="center" class="section__container__tabs__group">
+          <mat-tab *ngFor="let section of aboutMe.sections">
+              <ng-template mat-tab-label>
+                <h3 class = "h3__primary">{{section.sectionTitle}}</h3>
+              </ng-template>
+              <div class="items">
+                <div class="item" *ngFor="let item of section.items">
+                  <app-image-item [item] = "item"></app-image-item>
+                </div>
+              </div>                  
+          </mat-tab>
+      </mat-tab-group>
+      </div>
+        
+    </div>
+</section>

@@ -3,7 +3,7 @@ import { MatIconRegistry } from "@angular/material/icon";
 import { DomSanitizer } from "@angular/platform-browser";
 
 
-import {Knowledges, Perfil} from 'src/app/_interface/perfil.interface';
+import {Knowledges, AboutMe, Perfil} from 'src/app/_interface/perfil.interface';
 import PERFIL_ES from 'src/assets/data/perfil.json';
 import PERFIL_EN from 'src/assets/data/perfil_en.json';
 
@@ -19,6 +19,7 @@ export class AppComponent {
   knowledges: Knowledges = {};
   idioma: string = "";
   sections: string [] = [];
+  aboutMe: AboutMe = {};
 
   constructor(
     private matIconRegistry: MatIconRegistry,
@@ -44,6 +45,7 @@ export class AppComponent {
 
   ngOnInit(): void {
     this.perfil= PERFIL_ES as any;
+    this.aboutMe = this.perfil.aboutMe as any;
     this.knowledges = this.perfil.knowledges as any;
     this.idioma = this.perfil.code as any;
     this.sections = this.perfil.sections as any;
@@ -58,6 +60,7 @@ export class AppComponent {
       this.perfil = PERFIL_EN as any;
     }
     this.idioma = event;
+    this.aboutMe = this.perfil.aboutMe as any;
     this.knowledges = this.perfil.knowledges as any;
     this.sections = this.perfil.sections as any;
   }

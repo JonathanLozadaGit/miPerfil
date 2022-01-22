@@ -1,0 +1,18 @@
+<div class="card" style="background-image: url({{item.image}});">
+    <div class="back"></div>
+    <div class="img">
+      <span style="background-image: url({{item.image}});"></span>
+    </div>
+    <div class="content">
+      <div class="text">
+        <p class="p__title p__accent">{{item.title}}</p>
+        <ul>
+          <li *ngFor = "let text of item.list"><p class="p__item p__secundary">{{text}}</p></li>
+        </ul>
+        <div class="highlights">
+          <span class = "highlights_item span__item span__primary" *ngFor = "let high of item.highlights">{{high}}</span>
+        </div>
+        
+      </div>
+    </div>
+  </div> 

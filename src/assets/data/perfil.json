@@ -8,6 +8,77 @@
     "greeting":"Buenas",
     "yo_soy" : "soy",
     "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
+    "aboutMe": {
+        "title": "SOBRE MI",
+        "icon": "assets/images/jonathan.png",
+        "text": "Hola Hola",
+        "sections":  [
+            {
+                "sectionTitle":"Formación académica",
+                "items": [
+                    {
+                        "title":"Grado en Ingeniería Electrónica de Comunicaciones",
+                        "image":"assets/images/etsist.jpg",
+                        "list": [
+                            "Universidad Politécnica de Madrid",
+                            "2014-2020",
+                            "Se desarolló competencias en el ámbito de la electrónica así como campos de las telecomunicaciones como la telemática. Adquisión de conocimientos de distintas tecnologías y herrmientas"
+                        ],
+                        "highlights": ["Electrónica digital", "Programación" , "Sistemas de redes"]
+                    },
+                    {
+                        "title":"Máster en Internet de las Cosas",
+                        "image":"assets/images/upm.jpg",
+                        "list": [
+                            "Universidad Politécnica de Madrid",
+                            "2019-2020",
+                            "Se adquirió conocimientos básicos en el ámbito del IoT, así como las diferentes tecnologías y herramientas que nos ofrece"
+                        ],
+                        "highlights":["Internet of Things", "Cloud Computing", "Big Data"]
+                    }
+                ]
+            }, {
+                "sectionTitle":"Experiencia laboral",
+                "items": [
+                    {
+                        "title":"Everis",
+                        "image":"assets/images/everis.jpg",
+                        "list": [
+                            "Madrid, España",
+                            "Abril 2018 - junio 2019",
+                            "Becario de desarrollo web. Asignado a proyecto de la empresa Iberia para el desarrollo y mantenimiento de su portal web, haciendo uso de metodología Agile"
+                        ],
+                        "highlights": ["Desarrollo web", "Agile", "Gestión del tiempo", "Trabajo en equipo", "Proactividad"]
+                    },
+                    {
+                        "title":"NortConsulting",
+                        "image":"assets/images/nortconsulting.jpg",
+                        "list": [
+                            "Madrid, España",
+                            "Agosto 2019 - septiembre 2019",
+                            "Contratado para desarrollo web. Asignado a proyecto de la empresa Iberia para el desarrollo y mantenimiento de su portal web, haciendo uso de metodología Agile"
+                        ],
+                        "highlights":["Desarrollo web", "Agile", "Gestión del tiempo", "Trabajo en equipo", "Proactividad", "Autonomía"]
+                    },
+                    {
+                        "title":"Everis",
+                        "image":"assets/images/everis.jpg",
+                        "list": [
+                            "Madrid, España",
+                            "Mayo 2021 - actualidad",
+                            "Contratado para desarrollo web. Asignado a proyecto de la empresa Iberia para el desarrollo y mantenimiento de su portal web, haciendo uso de metodología Agile"
+                        ],
+                        "highlights":["Desarrollo web", "Agile", "Integración continua", "Metodologías de trabajo", "Gestión del tiempo", "Trabajo en equipo", "Proactividad"]
+                    }
+                ]
+            }, {
+                "sectionTitle":"Otros",
+                "items": [
+                ]
+            }
+        ]
+
+    },
     "knowledges": {
         "title": "CONOCIMIENTOS",
         "fields":[

@@ -1,0 +1,86 @@
+@import "../../styles.scss";
+
+.img__glitch, .img__glitch__child{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    
+} 
+.img__glitch{
+    height: 100%;
+    width:  100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+
+    & :nth-child(n+2) {
+        animation-duration: 6s;
+        animation-timing-function: step-end;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+    & :nth-child(2) {
+        animation-name: glitch-anim-2;
+    }
+      
+    & :nth-child(3) {
+        animation-name: glitch-anim-4;
+        background-blend-mode: overlay;
+        background-color: #af4949;
+    }
+}
+.img__glitch__child{
+    background-blend-mode: none;
+    background-color: transparent;
+    height: calc(100% + 1% );
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+    width: calc(100% + 1% );
+}
+
+
+.img__glitch__child:nth-child(n+2) {
+    opacity: 0;
+}
+
+@keyframes glitch-anim-2 {
+	0%, 100% { 
+		opacity: 1;
+		transform: translate3d(-10px, 0, 0);
+		clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
+	}
+  
+	10% { clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%); }
+	15% { clip-path: polygon(0 5%, 100% 5%, 100% 20%, 0 20%);}
+	17% { clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);}
+	19% { clip-path: polygon(0 40%, 100% 40%, 100% 40%, 0 40%);}
+	33% { clip-path: polygon(0 52%, 100% 52%, 100% 59%, 0 59%);}
+	35% { clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);}
+	40% { clip-path: polygon(0 75%, 100% 75%, 100% 75%, 0 75%);}
+	45% { clip-path: polygon(0 65%, 100% 65%, 100% 40%, 0 40%);}
+	49% { clip-path: polygon(0 45%, 100% 45%, 100% 50%, 0 50%);}
+	50% { clip-path: polygon(0 14%, 100% 14%, 100% 33%, 0 33%);}
+	55% { clip-path: polygon(0 15%, 100% 15%, 100% 35%, 0 35%);}
+	60% { clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);}
+	70% { clip-path: polygon(0 65%, 100% 65%, 100% 60%, 0 60%);} 
+	80% { clip-path: polygon(0 80%, 100% 80%, 100% 85%, 0 85%);} 
+    90% { clip-path: polygon(0 55%, 100% 55%, 100% 65%, 0 65%);}
+}
+
+@keyframes glitch-anim-4 {
+	0%, 5% { 
+		opacity: 0.2; 
+		transform: translate3d(10px, 5px, 0);
+	}
+
+	5.5%, 100% {
+		opacity: 0;
+		transform: translate3d(0, 0, 0);
+	}
+}

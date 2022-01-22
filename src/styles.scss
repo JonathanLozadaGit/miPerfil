@@ -222,4 +222,36 @@ p {
 }
 
 
+span {
+
+  &.span__item{
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: 100;
+    
+    @include tablet {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 100;
+    }
+
+    @include desktop {
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: 100;
+    }
+  
+  }
+
+  &.span__primary {
+    color: $title-primary;
+  }
+  &.span__secundary {
+    color: $font-secundary;
+  }
+  &.span__accent {
+    color: $title-item;
+  }
+}
+
 
