@@ -8,13 +8,13 @@
 
             },
             {
-                "code": "en",
+                "code": "gb",
                 "name": "Inglés"
 
             }
         ]
     },{
-        "idioma": "en",
+        "idioma": "gb",
         "opciones": [
             {
                 "code": "es",
@@ -22,7 +22,7 @@
 
             },
             {
-                "code": "en",
+                "code": "gb",
                 "name": "English"
 
             }
