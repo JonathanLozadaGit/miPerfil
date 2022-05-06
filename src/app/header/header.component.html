@@ -6,6 +6,7 @@
       <span class="span-spacer"></span>
       <button  mat-icon-button class="toolbar-icon" aria-label="Language" [matMenuTriggerFor]="menu" >
         <span class="flag-icon flag-icon-{{actual}}"></span>
+        
       </button>
       <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
         <button mat-menu-item class = "button__option" *ngFor="let option of options" (click)="selectLanguage(option.code)">
