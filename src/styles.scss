@@ -20,18 +20,40 @@ $tablet: 768px;
 $desktop: 1280px;
 
 
-
+@mixin mobile {
+  @media (max-width: ($tablet - 1px)) {
+    @content;
+  }
+}
 @mixin tablet {
-    @media all and (min-width: $tablet) {
+    @media  (min-width: $tablet) and (max-width: ($desktop - 1px)){
       @content;
     }
   }
   
-  @mixin desktop {
-    @media all and (min-width: $desktop) {
-      @content;
-    }
+@mixin desktop {
+  @media all and (min-width: $desktop) {
+    @content;
   }
+}
+
+.hidden-mobile {
+  @include mobile {
+    visibility: hidden;
+  }
+}
+
+.hidden-tablet {
+  @include tablet {
+    visibility: hidden;
+  }
+}
+
+.hidden-desktop {
+  @include desktop {
+    visibility: hidden;
+  }
+}
 
 
 * { 
@@ -254,4 +276,6 @@ span {
   }
 }
 
-
+.material-icons{
+  font-family: 'Material Icons' !important;
+}

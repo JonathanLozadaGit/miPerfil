@@ -44,24 +44,24 @@ export class AppComponent {
   }
 
   ngOnInit(): void {
-    this.perfil= PERFIL_ES as any;
-    this.aboutMe = this.perfil.aboutMe as any;
-    this.knowledges = this.perfil.knowledges as any;
-    this.idioma = this.perfil.code as any;
-    this.sections = this.perfil.sections as any;
+    this.perfil= PERFIL_ES as Perfil;
+    this.aboutMe = this.perfil.aboutMe as AboutMe;
+    this.knowledges = this.perfil.knowledges as Knowledges;
+    this.idioma = this.perfil.code as string;
+    this.sections = this.perfil.sections as string [];
     //console.log(this.perfil.knowledges);
   }
 
   updateLanguage(event:string) {
 
     if(event == 'es'){
-      this.perfil = PERFIL_ES as any;
-    }else if(event == "en"){
-      this.perfil = PERFIL_EN as any;
+      this.perfil = PERFIL_ES as Perfil;
+    }else if(event == "gb"){
+      this.perfil = PERFIL_EN as Perfil;
     }
     this.idioma = event;
-    this.aboutMe = this.perfil.aboutMe as any;
-    this.knowledges = this.perfil.knowledges as any;
-    this.sections = this.perfil.sections as any;
+    this.aboutMe = this.perfil.aboutMe as AboutMe;
+    this.knowledges = this.perfil.knowledges as Knowledges;
+    this.sections = this.perfil.sections as string [];
   }
 }

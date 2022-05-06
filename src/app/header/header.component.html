@@ -2,15 +2,16 @@
     <mat-toolbar class="mat-elevation-z6 toolbar__mat" color="primary">    
       <span>Mi Perfil</span>
       <span class="span-spacer"></span>
+      <button class="hidden-mobile button__option" mat-button color="accent" *ngFor="let section of sections,  let i = index" (click)="scroll('section' + i)">{{section}}</button>    
+      <span class="span-spacer"></span>
       <button  mat-icon-button class="toolbar-icon" aria-label="Language" [matMenuTriggerFor]="menu" >
-        <mat-icon>emoji_flags</mat-icon>
+        <span class="flag-icon flag-icon-{{actual}}"></span>
       </button>
       <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
         <button mat-menu-item class = "button__option" *ngFor="let option of options" (click)="selectLanguage(option.code)">
-          <mat-icon class = "items-menu">emoji_flags</mat-icon>
-          <span>{{option.name}}</span>
-        </button>
-        
+          <span class="flag-icon flag-icon-{{option.code}}"></span>
+          <span> {{option.name}}</span>
+        </button>        
       </mat-menu>
       <a href = "https://www.linkedin.com/in/jonathan-lozada-cuenca" mat-icon-button class="toolbar-icon" aria-label="Linkdin icon">
         <mat-icon svgIcon = "linkedin-icon"></mat-icon>
