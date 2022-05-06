@@ -1,0 +1,115 @@
+{
+    "idioma":"Inglés",
+    "code":"en",
+    "name" : "Jonathan",
+    "shortPresentation" : "I am a dreamer, with resilience, who is always willing to help and with a constant desire to learn and improve in all aspects, with an interest in web development and the IoT.",
+    "imageProfile1": "assets/images/fotoPerfil.PNG",
+    "imageProfile2": "assets/images/fotoPerfil4.PNG",
+    "greeting":"Hi",
+    "yo_soy" : "I am",
+    "sections": ["Init", "About me", "Knowledges", "Projects", "Contact"],
+    "knowledges": {
+        "title": "KNOWLEDGES",
+        "fields":[
+            {
+                "name": "Technologies",
+                "items": [
+                    {
+                        "image": "assets/images/javascript.jpg",
+                        "title": "JavaScript"
+                    },
+                    {
+                        "image": "assets/images/html5.png",
+                        "title": "HTML"
+                    },
+                    {
+                        "image": "assets/images/css.png",
+                        "title": "CSS"
+                    },
+                    {
+                        "image": "assets/images/jquery.png",
+                        "title": "jQuery"
+                    },
+                    {
+                        "image": "assets/images/angular.png",
+                        "title": "Angular"
+                    },
+                    {
+                        "image": "assets/images/react.png",
+                        "title": "React"
+                    },
+                    {
+                        "image": "assets/images/git.png",
+                        "title": "Git"
+                    },
+                    {
+                        "image": "assets/images/nodejs.png",
+                        "title": "NodeJS"
+                    },
+                    {
+                        "image": "assets/images/java.png",
+                        "title": "Java"
+                    },
+                    {
+                        "image": "assets/images/python.png",
+                        "title": "Python"
+                    },
+                    {
+                        "image": "assets/images/xml.png",
+                        "title": "XML"
+                    },
+                    {
+                        "image": "assets/images/mbed.png",
+                        "title": "mbed"
+                    },
+                    {
+                        "image": "assets/images/arduino.jpg",
+                        "title": "Arduino"
+                    }
+                ]
+            },
+            {
+                "name": "Tools",
+                "items": [
+                    {
+                        "image": "assets/images/vscode.png",
+                        "title": "Visual Studio Code"
+                    },
+                    {
+                        "image": "assets/images/eclipse.png",
+                        "title": "Eclipse"
+                    },
+                    {
+                        "image": "assets/images/npm.png",
+                        "title": "npm"
+                    },
+                    {
+                        "image": "assets/images/postman.png",
+                        "title": "Postman"
+                    },
+                    {
+                        "image": "assets/images/github.png",
+                        "title": "GitHub"
+                    },
+                    {
+                        "image": "assets/images/nodered.png",
+                        "title": "NodeRED"
+                    },
+                    {
+                        "image": "assets/images/androidstudio.png",
+                        "title": "Android Studio"
+                    },
+                    {
+                        "image": "assets/images/elastic.png",
+                        "title": "Elastic"
+                    },
+                    {
+                        "image": "assets/images/azure.png",
+                        "title": "Azure"
+                    }
+                ]
+            }
+        ]
+    }
+    
+}
