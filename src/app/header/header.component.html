@@ -1,8 +1,8 @@
 <div class="toolbar" role="banner">
     <mat-toolbar class="mat-elevation-z6 toolbar__mat" color="primary">    
       <span>Mi Perfil</span>
-      <span class="span-spacer"></span>
-      <button class="hidden-mobile button__option" mat-button color="accent" *ngFor="let section of sections,  let i = index" (click)="scroll('section' + i)">{{section}}</button>    
+      <span class="span-spacer none-mobile"></span>
+      <button class="none-mobile button__option" mat-button color="accent" *ngFor="let section of sections,  let i = index" (click)="scroll('section' + i)">{{section}}</button>    
       <span class="span-spacer"></span>
       <button  mat-icon-button class="toolbar-icon" aria-label="Language" [matMenuTriggerFor]="menu" >
         <span class="flag-icon flag-icon-{{actual}}"></span>

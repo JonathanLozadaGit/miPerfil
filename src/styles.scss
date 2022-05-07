@@ -37,21 +37,21 @@ $desktop: 1280px;
   }
 }
 
-.hidden-mobile {
+.none-mobile {
   @include mobile {
-    visibility: hidden;
+    display:none;
   }
 }
 
-.hidden-tablet {
+.none-tablet {
   @include tablet {
-    visibility: hidden;
+    display:none;
   }
 }
 
-.hidden-desktop {
+.none-desktop {
   @include desktop {
-    visibility: hidden;
+    display:none;
   }
 }
 
