@@ -2223,18 +2223,18 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 
 /* You can add global styles to this file, and also import other style files */
 @media (max-width: 767px) {
-  .hidden-mobile {
-    visibility: hidden;
+  .none-mobile {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
-  .hidden-tablet {
-    visibility: hidden;
+  .none-tablet {
+    display: none;
   }
 }
 @media all and (min-width: 1280px) {
-  .hidden-desktop {
-    visibility: hidden;
+  .none-desktop {
+    display: none;
   }
 }
 * {
