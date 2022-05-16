@@ -2227,12 +2227,12 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
     display: none;
   }
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .none-tablet {
     display: none;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   .none-desktop {
     display: none;
   }
@@ -2243,15 +2243,16 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 }
 html, body {
   height: 100%;
+  width: 100%;
 }
 body {
   margin: 0;
 }
-h1, h3, h4, p {
+h3, h4, p {
   font-family: "Bitter", serif;
   font-weight: bold;
 }
-h2 {
+h1, h2 {
   font-family: "Alfa Slab One", cursive;
   text-shadow: 0 0 20;
 }
@@ -2259,14 +2260,14 @@ h1 {
   font-size: 3em;
   line-height: 1em;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   h1 {
     font-size: 55px;
     line-height: 64px;
     height: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   h1 {
     font-size: 55px;
     line-height: 64px;
@@ -2274,20 +2275,20 @@ h1 {
   }
 }
 h1.h1__presentation {
-  color: mediumturquoise;
+  color: gainsboro;
   text-shadow: 0 0 20px #686464;
 }
 h2 {
   font-size: 25px;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   h2 {
     font-size: 30px;
     line-height: 64px;
     height: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   h2 {
     font-size: 40px;
     line-height: 64px;
@@ -2303,13 +2304,13 @@ h2.h2__secundary {
 h3 {
   font-size: 19px;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   h3 {
     font-size: 23px;
     height: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   h3 {
     font-size: 28px;
     height: auto;
@@ -2325,14 +2326,14 @@ p {
   font-size: 1.7em;
   line-height: 1.2em;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p {
     font-size: 25px;
     line-height: 30px;
     height: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   p {
     font-size: 25px;
     line-height: 35px;
@@ -2346,13 +2347,13 @@ p.p__item {
   font-size: 15px;
   margin-block: auto;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p.p__item {
     font-size: 20px;
     margin-block: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   p.p__item {
     font-size: 24px;
     margin-block: auto;
@@ -2364,14 +2365,14 @@ p.p__normal {
   line-height: 1.5em;
   margin-block: auto;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p.p__normal {
     font-size: 20px;
     line-height: 30px;
     margin-block: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   p.p__normal {
     font-size: 23px;
     line-height: 34px;
@@ -2382,14 +2383,14 @@ p.p__title {
   font-size: 15px;
   line-height: 1.3em;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p.p__title {
     font-size: 20px;
     line-height: 25px;
     height: auto;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   p.p__title {
     font-size: 23px;
     line-height: 25px;
@@ -2401,14 +2402,14 @@ p.p__item {
   line-height: 1.5em;
   font-weight: 100;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   p.p__item {
     font-size: 14px;
     line-height: 25px;
     font-weight: 100;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   p.p__item {
     font-size: 17px;
     line-height: 25px;
@@ -2429,14 +2430,14 @@ span.span__item {
   line-height: 1.5em;
   font-weight: 100;
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   span.span__item {
     font-size: 14px;
     line-height: 25px;
     font-weight: 100;
   }
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
   span.span__item {
     font-size: 17px;
     line-height: 25px;
@@ -2451,6 +2452,10 @@ span.span__secundary {
 }
 span.span__accent {
   color: mediumturquoise;
+}
+span.span__app {
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 0 0 20px #686464;
 }
 .material-icons {
   font-family: "Material Icons" !important;
