@@ -2467,7 +2467,23 @@ span.span__app {
 }
 @media (max-width: 767px) {
   span.span__app {
-    font-size: 48px;
+    font-size: 47px;
+  }
+}
+span.span__header {
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 0 0 40px black;
+  color: gainsboro;
+  font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  span.span__header {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  span.span__header {
+    font-size: 20px;
   }
 }
 .material-icons {
