@@ -6,7 +6,7 @@
     "imageProfile1": "assets/images/jonathan.png",
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
     "greeting":"BIENVENIDO A",
-    "yo_soy" : "MIPERFIL",
+    "yo_soy" : "MyProfile",
     "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
     "aboutMe": {
         "title": "SOBRE MI",

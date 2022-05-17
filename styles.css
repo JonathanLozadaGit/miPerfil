@@ -2456,6 +2456,19 @@ span.span__accent {
 span.span__app {
   font-family: "Alfa Slab One", cursive;
   text-shadow: 0 0 20px #686464;
+  color: #263238;
+  -webkit-text-stroke: 2px gainsboro;
+  font-size: 65px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  span.span__app {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  span.span__app {
+    font-size: 48px;
+  }
 }
 .material-icons {
   font-family: "Material Icons" !important;
