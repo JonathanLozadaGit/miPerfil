@@ -613,7 +613,7 @@ var src_assets_data_idiomas_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__P
 
 function HeaderComponent_button_5_Template(rf, ctx) { if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_button_5_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const i_r6 = ctx.index; const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.scroll("section" + i_r6); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -624,7 +624,7 @@ function HeaderComponent_button_5_Template(rf, ctx) { if (rf & 1) {
 } }
 function HeaderComponent_button_11_Template(rf, ctx) { if (rf & 1) {
     const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_button_11_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const option_r9 = ctx.$implicit; const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r10.selectLanguage(option_r9.code); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span");
@@ -640,9 +640,9 @@ function HeaderComponent_button_11_Template(rf, ctx) { if (rf & 1) {
 } }
 function HeaderComponent_button_21_Template(rf, ctx) { if (rf & 1) {
     const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_button_21_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r15); const i_r13 = ctx.index; const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r14.scroll("section" + i_r13); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-icon", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-icon", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "chevron_right");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
@@ -681,7 +681,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], inputs: { actual: "actual", sections: "sections" }, outputs: { selected: "selected" }, decls: 22, vars: 8, consts: [["role", "banner", 1, "toolbar"], ["color", "primary", 1, "toolbar__mat"], [1, "span__header"], [1, "span-spacer", "none-mobile"], ["class", "none-mobile button__option", "mat-button", "", "color", "accent", 3, "click", 4, "ngFor", "ngForOf"], [1, "span-spacer"], ["mat-icon-button", "", "aria-label", "Language", 1, "toolbar-icon", 3, "matMenuTriggerFor"], ["xPosition", "after", 1, "md-menu", ".toolbar-menu"], ["menu", "matMenu"], ["mat-menu-item", "", "class", "button__option", 3, "click", 4, "ngFor", "ngForOf"], ["href", "https://www.linkedin.com/in/jonathan-lozada-cuenca", "mat-icon-button", "", "aria-label", "Linkdin icon", 1, "toolbar-icon"], ["svgIcon", "linkedin-icon"], ["href", "https://github.com/JonathanLozadaGit", "mat-icon-button", "", "aria-label", "Github icon", 1, "toolbar-icon"], ["svgIcon", "github-icon"], ["mat-icon-button", "", "aria-label", "Menu", 1, "none-tablet", "none-desktop", 3, "matMenuTriggerFor"], ["sec", "matMenu"], ["mat-button", "", "color", "accent", 1, "none-mobile", "button__option", 3, "click"], ["mat-menu-item", "", 1, "button__option", 3, "click"], ["color", "primary", 1, "items-menu", "items-color"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], inputs: { actual: "actual", sections: "sections" }, outputs: { selected: "selected" }, decls: 22, vars: 8, consts: [["role", "banner", 1, "toolbar"], ["color", "primary", 1, "toolbar__mat"], [1, "span__header"], [1, "span-spacer", "none-mobile"], ["class", "none-mobile button__option", "mat-button", "", "color", "accent", 3, "click", 4, "ngFor", "ngForOf"], [1, "span-spacer"], ["mat-icon-button", "", "aria-label", "Language", 1, "toolbar-icon", 3, "matMenuTriggerFor"], ["xPosition", "after", 1, "md-menu"], ["menu", "matMenu"], ["mat-menu-item", "", "class", "button__option", 3, "click", 4, "ngFor", "ngForOf"], ["href", "https://www.linkedin.com/in/jonathan-lozada-cuenca", "mat-icon-button", "", "aria-label", "Linkdin icon", 1, "toolbar-icon"], ["svgIcon", "linkedin-icon"], ["href", "https://github.com/JonathanLozadaGit", "mat-icon-button", "", "aria-label", "Github icon", 1, "toolbar-icon"], ["svgIcon", "github-icon"], ["mat-icon-button", "", "aria-label", "Menu", 1, "none-tablet", "none-desktop", 3, "matMenuTriggerFor"], ["xPosition", "after", 1, "md-menu", "none-tablet", "none-desktop"], ["sec", "matMenu"], ["mat-button", "", "color", "accent", 1, "none-mobile", "button__option", 3, "click"], ["mat-menu-item", "", 1, "button__option", 3, "click"], ["color", "primary", 1, "items-menu", "items-color"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-toolbar", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -707,7 +707,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "menu");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "mat-menu", 7, 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "mat-menu", 15, 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, HeaderComponent_button_21_Template, 5, 1, "button", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
