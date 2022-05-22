@@ -2295,7 +2295,7 @@ h2 {
   }
 }
 h2.h2__primary {
-  color: #263238;
+  color: gainsboro;
 }
 h2.h2__secundary {
   color: #263238;
@@ -2316,7 +2316,7 @@ h3 {
   }
 }
 h3.h3__primary {
-  color: #263238;
+  color: gainsboro;
 }
 h3.h3__secundary {
   color: white;
@@ -2416,10 +2416,10 @@ p.p__item {
   }
 }
 p.p__primary {
-  color: #686464;
+  color: gainsboro;
 }
-p.p__primary {
-  color: white;
+p.p__secundary {
+  color: #263238;
 }
 p.p__accent {
   color: mediumturquoise;
@@ -2444,17 +2444,17 @@ span.span__item {
   }
 }
 span.span__primary {
-  color: #263238;
+  color: gainsboro;
 }
 span.span__secundary {
-  color: white;
+  color: #263238;
 }
 span.span__accent {
   color: mediumturquoise;
 }
 span.span__app {
   font-family: "Alfa Slab One", cursive;
-  color: #263238;
+  color: gainsboro;
   -webkit-text-stroke: 2px gainsboro;
   font-size: 65px;
 }
