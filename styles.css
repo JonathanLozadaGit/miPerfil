@@ -2454,7 +2454,7 @@ span.span__accent {
 }
 span.span__app {
   font-family: "Alfa Slab One", cursive;
-  color: gainsboro;
+  color: #263238;
   -webkit-text-stroke: 2px gainsboro;
   font-size: 65px;
 }
