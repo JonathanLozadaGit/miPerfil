@@ -9,10 +9,37 @@
   z-index: 100;
 }
 
-.button__option:hover {
-  color:deeppink;
-  font-weight: bolder;
-  mat-icon{
-    color: deeppink;
+::ng-deep .mat-menu-panel{
+  background-color: rgba(38, 50, 56, 0.95) !important;
+}
+.button__option, .items-color{
+  color: $theme-primary;
+  &:hover {
+    color: $theme-secundary;
   }
 }
+
+
+.toolbar__mat {
+  animation-name: opacityFunction;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-iteration-count: 0s;
+  animation-duration: 3.5s;
+  animation-delay: 1s;
+  animation-direction: normal;
+}
+
+@keyframes opacityFunction {
+  100% {opacity:1;}
+  90% { opacity:0.90; }
+  80% { opacity:0.80; }
+  70% { opacity:0.70; }
+  60% { opacity:0.60; }
+  50% { opacity:0.50; }
+  40% { opacity:0.40; }
+  30% { opacity:0.30; }
+  20% { opacity:0.20; }
+  10% { opacity:0.10; }
+  0% { opacity:0;}
+  }

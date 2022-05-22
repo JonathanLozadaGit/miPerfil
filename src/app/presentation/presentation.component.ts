@@ -8,10 +8,16 @@ import {Perfil} from 'src/app/_interface/perfil.interface';
 })
 export class PresentationComponent implements OnInit {
   @Input('perfil') perfil: Perfil = {}
-
+  icon:string = "";
   constructor() { }
 
   ngOnInit(): void {
+    this.icon = this.perfil.imageProfile1 as string;
+  }
+
+  scroll(id: string) {
+    let el = document.getElementById(id);
+    el?.scrollIntoView({behavior: 'smooth'});
   }
 
 }

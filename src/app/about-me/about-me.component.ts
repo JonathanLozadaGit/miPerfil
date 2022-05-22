@@ -16,7 +16,7 @@ export class AboutMeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.icon = this.aboutMe.icon as any;
+    this.icon = this.aboutMe.icon as string;
   }
 
 }

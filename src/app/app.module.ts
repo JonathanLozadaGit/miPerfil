@@ -18,7 +18,6 @@ import {MatSelectModule} from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //
-import { FavButtonComponent } from './fav-button/fav-button.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { HeaderComponent } from './header/header.component';
 import { BubbleComponent } from './bubble/bubble.component';
@@ -33,7 +32,6 @@ import { ImageItemComponent } from './image-item/image-item.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FavButtonComponent,
     PresentationComponent,
     HeaderComponent,
     BubbleComponent,
@@ -55,7 +53,7 @@ import { ImageItemComponent } from './image-item/image-item.component';
     MatMenuModule,
     MatTabsModule,
     MatCardModule,
-    MatSelectModule
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

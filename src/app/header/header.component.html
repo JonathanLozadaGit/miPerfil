@@ -1,6 +1,6 @@
 <div class="toolbar" role="banner">
-    <mat-toolbar class="mat-elevation-z6 toolbar__mat" color="primary">    
-      <span>Mi Perfil</span>
+    <mat-toolbar class="toolbar__mat" color="primary">    
+      <span class="span__header">MyProfile</span>
       <span class="span-spacer none-mobile"></span>
       <button class="none-mobile button__option" mat-button color="accent" *ngFor="let section of sections,  let i = index" (click)="scroll('section' + i)">{{section}}</button>    
       <span class="span-spacer"></span>
@@ -11,7 +11,7 @@
       <mat-menu class = "md-menu" #menu="matMenu" xPosition="after">
         <button mat-menu-item class = "button__option" *ngFor="let option of options" (click)="selectLanguage(option.code)">
           <span class="flag-icon flag-icon-{{option.code}}"></span>
-          <span> {{option.name}}</span>
+          <span>{{option.name}}</span>
         </button>        
       </mat-menu>
       <a href = "https://www.linkedin.com/in/jonathan-lozada-cuenca" mat-icon-button class="toolbar-icon" aria-label="Linkdin icon">
@@ -20,5 +20,14 @@
       <a href = "https://github.com/JonathanLozadaGit" mat-icon-button class="toolbar-icon" aria-label="Github icon">
         <mat-icon svgIcon = "github-icon"></mat-icon>
       </a>
+      <button mat-icon-button class="none-tablet none-desktop" aria-label="Menu" #menuTrigger="matMenuTrigger" [matMenuTriggerFor]="matMenu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu class = "md-menu none-tablet none-desktop" #matMenu="matMenu" xPosition="after">
+        <button mat-menu-item class = "button__option" *ngFor="let section of sections,  let i = index" (click)="menuTrigger.closeMenu(); scroll('section' + i)">
+          <mat-icon color = "primary" class = "items-menu items-color">chevron_right</mat-icon>
+          <span>{{section}}</span>
+        </button>        
+      </mat-menu>
     </mat-toolbar>
   </div>

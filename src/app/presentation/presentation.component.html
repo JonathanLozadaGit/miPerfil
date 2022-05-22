@@ -1,12 +1,19 @@
 <section class = "presentation" id = "presentation">
-    <div class="presentation__container">
+    <div class = "presentation__background">
+        <div _ngcontent-ins-c68="" class="img"><span _ngcontent-ins-c68="" ></span></div>
+        <div class = "back"></div>
+    </div>
+    <div class="presentation__container ">
         <div class = "presentation__container__img">
-            <img src = "{{perfil.imageProfile1}}" />
+            <app-image-glitch  [icon]="icon"></app-image-glitch>
         </div>
         <div class = "presentation__container__text">
-            <h1 class = "h1__presentation">{{perfil.greeting}}, {{perfil.yo_soy}} {{perfil.name}}!!</h1>
+            <h1 class = "h1__presentation">{{perfil.greeting}} <span class = "span__accent span__app">{{perfil.yo_soy}}</span></h1>
             <p class="p__presentation">{{perfil.shortPresentation}}</p>
+            <div class="presentation__container__sections">
+                <span class = "highlights_item span__item span__primary" *ngFor = "let section of perfil.sections?.slice(1),  let i = index" (click)="scroll('section' + i)">{{section}}</span>
+              </div>
         </div>
+      
     </div>
-   
 </section>

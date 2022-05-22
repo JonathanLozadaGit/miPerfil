@@ -2,16 +2,16 @@
     "idioma":"Español",
     "code":"es",
     "name" : "Jonathan",
-    "shortPresentation" : "Soy una persona soñadora, resiliente, siempre dispuesta a ayudar y con ganas constantes de aprender y mejorar en todos los aspectos, con interés en el desarrollo web y el IoT.",
-    "imageProfile1": "assets/images/fotoPerfil.PNG",
+    "shortPresentation" : "Hola, soy Jonathan! Espero que puedas conocerme un poco más a través de esta página web",
+    "imageProfile1": "assets/images/jonathan.png",
     "imageProfile2": "assets/images/fotoPerfil4.PNG",
-    "greeting":"Buenas",
-    "yo_soy" : "soy",
+    "greeting":"BIENVENIDO A",
+    "yo_soy" : "MyProfile",
     "sections": ["Inicio", "Sobre mi", "Conocimientos", "Proyectos", "Contacto"],
     "aboutMe": {
         "title": "SOBRE MI",
-        "icon": "assets/images/jonathan.png",
-        "text": "Hola Hola",
+        "icon": "assets/images/fotoPerfil.PNG",
+        "text": "Soy una persona soñadora, resiliente, siempre dispuesta a ayudar y con ganas constantes de aprender y mejorar en todos los aspectos, con interés en el desarrollo web y el IoT.",
         "sections":  [
             {
                 "sectionTitle":"Formación académica",

@@ -1,21 +1,59 @@
 @import "../../styles.scss";
 
 .presentation {
-    background-image: url(../../assets/images/fondo_presentation.jpg);
-    min-height: 100%;
-    background-position: center;
+    // background-image: url(../../assets/images/fondo_presentation.jpg);
+    // min-height: 100%;
+    //background-color: $theme-accent;
+    /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__background {
 
+
+        .back{
+            content: "";
+            position: absolute;
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+            top: 0;
+            background-color: rgba(38, 50, 56, 0.85);
+        }
+
+        .img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+
+            span{
+                width: 100%;
+                height: 100%;
+                background-image: url(../../assets/images/codeback.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: inherit;
+                transition: opacity 1.2s;
+                background-position: center;
+            }
+        }
+
+    }
     &__container {
+        width: 980px;
+        margin: auto;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 110px;
+        flex-direction: row;
+        justify-content: space-evenly;
         opacity: 0;
-
+        //Animation
         animation-name: opacityFunction;
         animation-timing-function: ease-in-out;
         animation-fill-mode: both;
@@ -25,100 +63,77 @@
         animation-direction: normal;
 
         @include tablet {
-            
-            margin: auto;
-            display: flex;
+            width: 700px;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding-top: 110px;
-            
         }
-        @include desktop {
-            width: 1300px;
-            margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            padding-top: 145px;
-            padding-bottom: 100px;
+        @include mobile {
+            width: 80%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
-        &__img {
-            width: 50%;
+        &__img{
             margin: auto;
-    
+            width: 250px;
+            height: 250px;
+            
             @include tablet {
-                width: 300px;
+                height: 210px;
+                width: 210px;
             }
-            @include desktop {
-                width: 50%;              
-                margin: auto;
-                padding-left: 200px;
-                box-sizing: border-box;
+            @include mobile {
+                height: 150px;
+                width: 150px;
+
               }
-            
-            & img {
-                top: 10%;
-                margin: auto;
-                width: 100%;
-                border-radius: 50%;
-
-                
-
-                @include desktop {
-                    width: 300px;
-                }
-                @include tablet {
-                    width:250px;
-                }
-            }       
         }
 
     
         &__text {
-            width:80%;
-            padding: 35px;
+            width: 65%;
             margin: auto;
-            
             @include tablet {
-                width:75%;
-                padding: 35px;
-                margin: auto;
+                width:100%;
+                padding-top: 35px;
             }
-            @include desktop {
-                width: 50%;
-                padding: 40px;
-                padding-left: 0px;
+            @include mobile {
+                width:100%;
+                padding-top: 35px;
             }
     
             & h1,p {
                 text-align: center;
             }
         }
+
+        &__sections {
+            text-align: initial;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin-top: 30px;
+            & .highlights_item {
+                margin-right: 10px;
+                margin-top: 10px;
+                background-color: $theme-secundary;
+                padding: 0px 10px 0px;
+                border-radius: 50px;
+                box-shadow: 0 0 15px black;
+                font-weight: bold;
+
+                @include mobile {
+                    margin-right: 5px;
+                }
+
+                &:hover{
+                    background-color: $theme-primary;
+                }
+            }
+        }
     }
-}
-
-img:hover {
-    box-shadow: 0 0 20px deeppink; 
- }
-
- @keyframes bounce {
-	0%, 100%, 20%, 50%, 80% {
-		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-	}
-	40% {
-		-webkit-transform: translateY(-30px);
-		-ms-transform:     translateY(-30px);
-		transform:         translateY(-30px)
-	}
-	60% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform:     translateY(-15px);
-		transform:         translateY(-15px)
-	}
 }
 
 @keyframes opacityFunction {
@@ -135,13 +150,4 @@ img:hover {
   0% { opacity:0; transform: translateY(-50px)}
   }
 
-
-
-/*
-animation-duration: 2s;
-animation-fill-mode: both;
-animation-timing-function: ease-in-out;
-animation-iteration-count: 1s;
-animation-name: bounce;
-*/
-
+  

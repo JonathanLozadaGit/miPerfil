@@ -17,7 +17,7 @@ $theme-accent: #263238;
 
 //Size
 $tablet: 768px;
-$desktop: 1280px;
+$desktop: 1024px;
 
 
 @mixin mobile {
@@ -61,15 +61,15 @@ $desktop: 1280px;
   scroll-behavior: smooth;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; width:100% }
 body { margin: 0;  }
 
 //Font type
-h1, h3, h4, p { 
+h3, h4, p { 
     font-family: 'Bitter', serif;
     font-weight: bold;
 } 
- h2 { 
+h1, h2 { 
   font-family: 'Alfa Slab One', cursive;
   text-shadow: 0 0 20;
 }
@@ -91,8 +91,8 @@ h1 {
     } 
 
     &.h1__presentation {
-      color: mediumturquoise;
-      text-shadow: 0 0 20px $font-primary;
+      color: gainsboro;
+      // text-shadow: 0 0 20px $font-primary;
     }
    
 }
@@ -247,7 +247,7 @@ p {
 span {
 
   &.span__item{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5em;
     font-weight: 100;
     
@@ -273,6 +273,37 @@ span {
   }
   &.span__accent {
     color: $title-item;
+  }
+
+  &.span__app {
+    font-family: 'Alfa Slab One', cursive;
+    // text-shadow: 0 0 20px $font-primary;
+    color: $title-primary;
+    -webkit-text-stroke: 2px gainsboro;
+    font-size: 65px;
+
+    @include tablet {
+      font-size: 60px;
+    }
+
+    @include mobile {
+      font-size: 47px;
+    }
+  }
+
+  &.span__header {
+    font-family: "Alfa Slab One", cursive;
+    text-shadow: 0 0 40px black; 
+    color: gainsboro;
+    font-size: 20px;
+
+    @include tablet {
+      font-size: 20px;
+    }
+
+    @include mobile {
+      font-size: 20px;
+    }
   }
 }
 
